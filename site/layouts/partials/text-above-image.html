@@ -1,0 +1,21 @@
+<div class="{{ if .backgroundColor }}{{.backgroundColor}}{{else}}bg-grey-1{{end}} pv4">
+	<div class="ph3 mw7 center">
+
+		<div class="mhn2-l">
+			<div class="fl w-100 pa2">
+				<h2 class="f2 b lh-title mb2">{{.heading}}</h2>
+
+				<p>{{.text}}</p>
+			</div>
+
+			<div class="fl w-100 pa2">
+				<img src="{{.image}}" alt="" class="mb3">
+			</div>
+		</div>
+
+		<div class="tc">
+			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+		</div>
+
+	</div>
+</div>

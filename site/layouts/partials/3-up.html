@@ -1,0 +1,19 @@
+<div class="bg-grey-1 pv4">
+  <div class="ph3 mw7 center">
+    <h2 class="f2 b lh-title mb2">{{.heading}}</h2>
+
+    <div class="flex-ns mhn2-ns mb3">
+      {{ range .selection }}
+      <div class="ph2-ns w-33-ns">
+        <img src="{{.image}}" alt="" class="center db mb3">
+        <h3>{{.title}}</h3>
+        <p>{{.text}}</p>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="tc">
+      <a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+    </div>
+  </div>
+</div>
