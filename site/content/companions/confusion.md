@@ -5,7 +5,7 @@ description: Put your phone in this whispering station if you are afraid of big
   companies spying on you
 instructions:
   steps:
-    - image: /img/illustrations-coffee.svg
+    - image: img/DSC_5781.jpg
       title: First Step
       text: >
         We sell green and roasted coffee beans that are sourced directly from
@@ -30,6 +30,8 @@ instructions:
   title: Test
   text: asdfasf
   image: img/DSC_5806.jpg
+  heading: Hi there
+  description: Asdf
 image: /img/DSC_5775.jpg
 ---
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
