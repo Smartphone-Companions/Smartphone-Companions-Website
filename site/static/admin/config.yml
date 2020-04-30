@@ -14,11 +14,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: Instructions, name: instructions, widget: object, fields: [
-          {label: Heading, name: heading, widget: string},
-          {label: Description, name: description, widget: text},
+          {label: Description, name: description, widget: text, required: false},
           {label: Steps, name: steps, widget: list, fields: [
-            {label: Image, name: image, widget: image},
-            {label: Title, name: title, widget: text},
+            {label: Image, name: image, widget: image, required: false},
+            {label: Title, name: title, widget: text, required: false},
             {label: Text, name: text, widget: text}]}]}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
