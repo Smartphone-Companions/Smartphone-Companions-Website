@@ -8,7 +8,7 @@
     </div>
     {{ if .Params.instructions }}
     <h2 class="f3 lh-title b mb3">Build Instructions</h2>
-      {{ range .Params.instructions }}
+      {{ range .Params.instructions.steps }}
       <div class="flex-ns mhn2-ns mb3">
         <div class="ph2-ns w-60-ns">
         {{ if .image }}<img src="{{.image}}" alt="" class="center db mb3">{{ end }}
