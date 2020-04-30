@@ -7,15 +7,15 @@
       {{ .Content }}
     </div>
     {{ if .Params.instructions }}
-    <h2 class="f3 lh-title b mb3">Build Instructions</h2>
+    <h2 class="f3 lh-title b mb3 mt4">Build Instructions</h2>
       {{ range .Params.instructions.steps }}
       <div class="flex-ns mhn2-ns mb3">
-        <div class="ph2-ns w-60-ns">
+        <div class="pr2-ns w-60-ns">
         {{ if .image }}<img src="{{.image}}" alt="" class="center db mb3">{{ end }}
         </div>
         <div class="ph2-ns w-40-ns">
-          <h3 class="b">{{.title}}</h3>
-          <p class="f8">{{.text}}</p>
+          <h3 class="b f5">{{.title}}</h3>
+          <p class="f6">{{.text}}</p>
         </div>
       </div>
       {{ end }}
