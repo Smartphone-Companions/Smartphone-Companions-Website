@@ -3,7 +3,6 @@ title: Confusion
 date: 2016-12-17T15:04:10.000Z
 description: Put your phone in this whispering station if you are afraid of big
   companies spying on you
-image: /img/DSC_5775.jpg
 instructions:
   steps:
     - image: /img/illustrations-coffee.svg
@@ -28,6 +27,10 @@ instructions:
         tools for every taste and experience level. No matter if you roast your
         own beans or just bought your first french press, you’ll find a gadget
         to fall in love with in our shop.
+  title: Test
+  text: asdfasf
+  image: img/DSC_5806.jpg
+image: /img/DSC_5775.jpg
 ---
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 
