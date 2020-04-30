@@ -14,7 +14,7 @@ instructions:
       title: Second Step
       text: Do that
   heading: Wooow
-  description: Yes man
+  description: Optional Desription
 image: img/DSC_5806.jpg
 ---
 Desktop Notification Center is a collection of three desktop accessories. that provide notifications in the work environment in a way that avoids unnecessary disturbance and stress. Notifications are classified in 3 categories: Important (calls), Not Urgent (mes- sages), and Futile (social media).
