@@ -27,7 +27,7 @@ instructions:
         tools for every taste and experience level. No matter if you roast your
         own beans or just bought your first french press, you’ll find a gadget
         to fall in love with in our shop.
-    - title: Step 2 - 3D print
+    - title: Fourth step - 3D print
       image: img/DSC_5814.jpg
       text: 3d print instructions....
   title: Test
