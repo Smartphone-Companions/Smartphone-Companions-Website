@@ -1,4 +1,5 @@
-<a class="no-underline" href="{{ .RelPermalink }}">
+<a class="no-underline relative" href="{{ .RelPermalink }}">
+	{{ if .Params.instructions }}<div class="diy-badge">DIY</div>{{ end }}
 	{{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
 	<h3 class="b">{{.Title}}</h3>
 	<p>{{.Description}}</p>

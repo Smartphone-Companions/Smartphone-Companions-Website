@@ -1,0 +1,17 @@
+<div class="bg-grey-1 pv5">
+  <div class="ph3 mw7 center">
+    <h2 class="f3 lh-title mb2">Companions</h2>
+
+    <div class="flex-ns mhn2-ns mb3">
+        {{ range first 3 . }}
+        <div class="ph2-ns w-33-ns">
+        {{ .Render "li"}}
+        </div>
+        {{ end }}
+    </div>
+
+    <div class="tc">
+      <a href="/companions" class="btn raise">All Companions</a>
+    </div>
+  </div>
+</div>

@@ -1,6 +1,28 @@
 {{ define "main" }}
-
-{{ partial "jumbotron" (dict "imageUrl" "/img/7.jpg" "title" "This is where the heading goes" "subtitle" "This is where the subtitle goes") }}
-{{ .Content }}
-
+ <div class="mw6 center ph3 pv5">
+   {{ if .Params.image }}<img class="mb3" src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+   <h1 class="f3 lh-title b mb3">{{.Title}}</h1>
+   <div class="cms mw6">
+     <p>{{ .Description }}</p>
+     {{ .Content }}
+   </div>
+   {{ if .Params.instructions }}
+   <button class="btn btn-alternative" id="build-button">Build your own</button>
+   <div id="build-instructions">
+     <h2 class="f3 lh-title b mb3 mt4">Build Instructions</h2>
+       {{ range .Params.instructions.steps }}
+       <div class="flex-ns mhn2-ns mb3">
+         <div class="pr2-ns w-60-ns">
+         {{ if .image }}<img src="{{.image}}" alt="" class="center db mb3">{{ end }}
+         </div>
+         <div class="ph2-ns w-40-ns">
+           <h3 class="b f5">{{.title}}</h3>
+           <p class="f6">{{.text}}</p>
+         </div>
+       </div>
+       {{ end }}
+   </div>
+   </div>
+   {{ end }}
+ </div>
 {{ end }}
