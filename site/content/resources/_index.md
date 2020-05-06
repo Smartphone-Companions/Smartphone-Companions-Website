@@ -2,7 +2,7 @@
 title: Resources
 type: resources
 description: >-
-  We conducted several workshops along the way, allowing participants to create companions for their own need. If you are interested in getting a workshop yourself please contact us!
+  These are the tools we used along the way.
 materials:
   heading: Materials
   blurbs:

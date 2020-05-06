@@ -2,14 +2,8 @@
 <div class="mw7 pv6 center">
 <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
 <p>{{ .Description }}</p>
-<div class="flex-ns mhn2-ns mb3">
-    {{ range .RegularPages }}
-    <div>
-    {{ .Render "li-workshops"}}
-    </div>
-    {{ end }}
-</div>
 
+{{ .Content }}
 
 </div>
 {{ end }}

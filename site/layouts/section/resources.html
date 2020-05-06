@@ -1,10 +1,19 @@
 {{ define "main" }}
 <div class="mw7 pv6 center">
-<h1 class="f3 lh-title b mb3">{{.Title}}</h1>
+<h1 class="f2 lh-title b mb3">{{.Title}}</h1>
 <p>{{ .Description }}</p>
 
+<h2 class="b">{{.Params.materials.heading}}</h2>
 <div class="pb4">
-
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+      {{ range .Params.materials.blurbs }}
+      <div class="pr4-ns w-33-ns">
+        	{{ if .image }}<img src="{{ .image }}" alt="{{ .title }}" />{{ end }}
+        	<h3 class="b">{{.title}}</h3>
+        	<p>{{.text}}</p>
+      </div>
+      {{ end }}
+  </ul>
 </div>
 
 </div>

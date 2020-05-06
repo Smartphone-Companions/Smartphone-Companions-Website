@@ -1,0 +1,7 @@
+<h3 class="b">{{.Title}}</h3>
+<p>{{.Description}}</p>
+
+{{ range .Params.images }}
+	<img src="{{ .image }}" alt="{{ .caption }}" />
+	{{ if .caption }}<p class="f6 pb2">{{ .caption }}</p>{{ end }}
+{{ end }}
