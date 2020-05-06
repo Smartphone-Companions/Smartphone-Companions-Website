@@ -89,3 +89,7 @@
 .bg-center {
   height: 100vh;
 }
+
+.build-instructions {
+  display: none;
+}
