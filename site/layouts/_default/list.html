@@ -2,13 +2,12 @@
 
 <div class="mw7 pv6 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+      {{ range .Pages.ByPublishDate.Reverse }}
       <div class="ph2-ns w-33-ns">
       {{ .Render "li"}}
       </div>
       {{ end }}
   </ul>
-  {{ partial "pagination" . }}
 </div>
 
 {{end}}
