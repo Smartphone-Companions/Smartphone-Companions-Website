@@ -1,8 +1,8 @@
 ---
-title: Slight
+title: Anti-Stress Case
 date: 2020-06-05T13:18:02.537Z
-description: "Falling asleep with your phone has become a relatively common,
-  though possibly unhealthy, habit. "
-image: img/DSC_5796.jpg
+description: "Do you ever feel stressed by your smartphone? The Anti-Stress Case
+  helps you deal with it. "
+image: img/DSC_5814.jpg
 ---
-Slight is a lamp that prevents this behaviour.
+You can switch between various modules with pleasant tactile sensations. The more you play with the case, the less you’ll be annoyed by the notifications.
