@@ -1,8 +1,7 @@
 ---
-title: Confusion
+title: Mistarget
 date: 2016-12-17T15:04:10.000Z
-description: Put your phone in this whispering station if you are afraid of big
-  companies spying on you
+description: Is your phone spying on you? Mistarget is here to tell you.
 instructions:
   steps:
     - image: img/DSC_5781.jpg
@@ -37,6 +36,4 @@ instructions:
   description: Asdf
 image: /img/DSC_5775.jpg
 ---
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
-
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+A lot of people seem to be wondering whether their phone is listening to them for commercial reasons. Some of them even test their phones. We offer a technology that automates the test. When the phone is connected, the dock starts whispering misleading information. Fake conversations about needs and consumerist desires are recorded and stored in the dock. Are the ads going to be affected?
