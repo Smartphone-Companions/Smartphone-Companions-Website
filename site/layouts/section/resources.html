@@ -1,12 +1,25 @@
 {{ define "main" }}
-<div class="mw7 pv6 center">
+<div class="mw7 pv6 center ph3">
 <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-<p>{{ .Description }}</p>
+{{ .Description }}
 
-<h2 class="b">{{.Params.materials.heading}}</h2>
+<h2 class="b pt4 pb2">{{.Params.materials.heading}}</h2>
 <div class="pb4">
-  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+  <ul class="flex-ns flex-wrap mhn1-ns">
       {{ range .Params.materials.blurbs }}
+      <div class="">
+        	{{ if .image }}<img src="{{ .image }}" alt="{{ .title }}" />{{ end }}
+        	<h3 class="b">{{.title}}</h3>
+        	<p>{{.text}}</p>
+      </div>
+      {{ end }}
+  </ul>
+</div>
+
+<h2 class="b pb2">{{.Params.machines.heading}}</h2>
+<div class="pb4">
+  <ul class="flex-ns flex-wrap mhn1-ns">
+      {{ range .Params.machines.blurbs }}
       <div class="pr4-ns w-33-ns">
         	{{ if .image }}<img src="{{ .image }}" alt="{{ .title }}" />{{ end }}
         	<h3 class="b">{{.title}}</h3>
@@ -14,6 +27,24 @@
       </div>
       {{ end }}
   </ul>
+</div>
+
+<h2 class="b pb2">{{.Params.electronics.heading}}</h2>
+<div class="pb4">
+  <ul class="flex-ns flex-wrap mhn1-ns">
+      {{ range .Params.electronics.blurbs }}
+      <div class="pr4-ns w-33-ns">
+        	{{ if .image }}<img src="{{ .image }}" alt="{{ .title }}" />{{ end }}
+        	<h3 class="b">{{.title}}</h3>
+        	<p>{{.text}}</p>
+      </div>
+      {{ end }}
+  </ul>
+</div>
+
+<h2 class="b pb2">{{.Params.code.title}}</h2>
+<div class="pb4">
+  {{.Params.code.description}}
 </div>
 
 </div>
