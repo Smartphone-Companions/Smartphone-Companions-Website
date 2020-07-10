@@ -9,4 +9,19 @@ So much of contemporary culture and interactions is taking place through interfa
 
 By imagining, designing and prototyping new objects or apparatuses, this project aims to offer proposals for re-appropriation, re-extraction of certain features locked in the smartphone, thereby allowing a different, more customizable access to data or functions. Consequently, fostering a shift from the glowing rectangle to a more detached and focused interaction, away from the screen.
 
-The Research Project is conducted by Alain Bellet, Lison Christe and Martin Hertig at[ ECAL/University of Art and Desing Lausanne](< https://ecal.ch>)
+**Goals**
+
+Through its approach, the project aims to offer a reflection on our relationship to this ultra- contemporary object that is the smartphone by questioning some of its uses through a series of objects. The problematic uses of the smartphone are increasingly thematised in the press, scientific journals, books, etc. However, there is still too little reflection within the design community on these issues (interaction design, interface design and product design).
+
+The project aims, through its results, to:
+
+* thematise the current problems around smartphones in the form of design proposals
+* provide reflective inspiration for the design community
+* offer concrete proposals (in the form of a kit and instructions) allowing a certain re- appropriation and access to certain smartphone functionalities (in particular notifications).
+
+**Team**\
+Research Team: Alain Bellet, Lison Christe, Martin Hertig
+
+Visiting Lecturer: Jesse Howard
+
+Research project conducted at[ ECAL/University of Art and Desing Lausanne](< https://ecal.ch>)
