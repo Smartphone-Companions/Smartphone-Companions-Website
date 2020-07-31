@@ -3,7 +3,12 @@
 <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
 {{ .Description }}
 
-<h2 class="b pt4 pb2">{{.Params.materials.heading}}</h2>
+<h2 class="b pt4 pb2">{{.Params.code.title}}</h2>
+<div class="pb4">
+  {{.Params.code.description}}
+</div>
+
+<h2 class="b pb2">{{.Params.materials.heading}}</h2>
 <div class="pb4">
   <ul class="flex-ns flex-wrap mhn1-ns">
       {{ range .Params.materials.blurbs }}
@@ -42,10 +47,6 @@
   </ul>
 </div>
 
-<h2 class="b pb2">{{.Params.code.title}}</h2>
-<div class="pb4">
-  {{.Params.code.description}}
-</div>
 
 </div>
 {{ end }}
