@@ -13,8 +13,8 @@ ressources:
     heading: "Ressources"
     text: "Using Open-Source Tools everybody should be able to fabricate their own companion. Here insight in our tools."
     image: ""
-    buttonText: "Ressouces"
-    buttonLink: "/ressources"
+    buttonText: "Resouces"
+    buttonLink: "/resources"
 confessions:
     heading: "Confessions"
     backgroundColor: "bg-off-white"
