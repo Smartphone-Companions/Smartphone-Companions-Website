@@ -24,4 +24,4 @@ Research Team: Alain Bellet, Lison Christe, Martin Hertig
 
 Visiting Lecturer: Jesse Howard
 
-Research project conducted at[ECAL/University of Art and Desing Lausanne](<https://www.ecal.ch>)
+Research project conducted at [ECAL/University of Art and Desing Lausanne](<https://www.ecal.ch>)
