@@ -9,16 +9,21 @@ workshops:
     image: img/workshops/P1070779.JPG
     buttonText: "Impressions"
     buttonLink: "/workshops"
-ressources:
-    heading: "Ressources"
-    text: "Using Open-Source Tools everybody should be able to fabricate their own companion. Here insight in our tools."
-    image: ""
+resources:
+    heading: "Resources"
+    text: "Using Open-Source Tools everybody should be able to fabricate their own companion. Here an insight in the tools we used and resources to fabricate your own"
+    image: img/ressources.jpg
+    images:
+      - image: img/DSC_5781.jpg
+        caption: First Step
+      - image: img/DSC_5781.jpg
+        caption: Second image
     buttonText: "Resouces"
     buttonLink: "/resources"
 confessions:
     heading: "Confessions"
     backgroundColor: "bg-off-white"
-    text: "Using Open-Source Tools everybody should be able to fabricate their own companion. Here insight in our tools."
+    text: "We were asking people around the world for their phone related confessions. Have a look and make yours"
     image: img/confessions.png
     buttonText: "Go to website"
     buttonLink: "https://smartphone-confessions.world/"

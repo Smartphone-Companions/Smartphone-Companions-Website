@@ -1,0 +1,25 @@
+<div class="{{ if .backgroundColor }}{{.backgroundColor}}{{else}}bg-grey-1{{end}} pv5">
+	<div class="ph3 mw7 center">
+
+		<div class="mhn2-l">
+			<div class="fl w-100 pa2">
+				<h2 class="f3 lh-title mb2">{{.heading}}</h2>
+
+				<p>{{.text}}</p>
+			</div>
+
+			<div class="fl w-100 flex-ns mhn2 pa2">
+				{{ range .images }}
+				<div class="ph2-ns w-33-ns">
+					<img src="{{.image}}?nf_resize=fit&w=600" alt="" class="center db mb3">
+				</div>
+				{{ end }}
+			</div>
+		</div>
+
+		<div class="tc">
+			<a href="{{.buttonLink}}" class="btn raise">{{.buttonText}}</a>
+		</div>
+
+	</div>
+</div>
