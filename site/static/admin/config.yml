@@ -54,7 +54,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "resources"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: Description, name: description, widget: string}
           - {label: Materials, name: materials, widget: object, fields: [
               {label: Heading, name: heading, widget: text, required: false},
