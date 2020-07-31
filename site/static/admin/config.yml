@@ -58,7 +58,19 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Description, name: description, widget: string}
           - {label: Materials, name: materials, widget: object, fields: [
               {label: Heading, name: heading, widget: text, required: false},
-              {label: Blurbs, name: blurbs, widget: list, fields: [
+              {label: Materials, name: blurbs, widget: list, fields: [
+                {label: Image, name: image, widget: image, required: false},
+                {label: Title, name: title, widget: text, required: false},
+                {label: Text, name: text, widget: text}]}]}
+          - {label: Machines, name: machines, widget: object, fields: [
+              {label: Heading, name: heading, widget: text, required: false},
+              {label: Machines, name: blurbs, widget: list, fields: [
+                {label: Image, name: image, widget: image, required: false},
+                {label: Title, name: title, widget: text, required: false},
+                {label: Text, name: text, widget: text}]}]}
+          - {label: Electronics, name: electronics, widget: object, fields: [
+              {label: Heading, name: heading, widget: text, required: false},
+              {label: Electronics, name: blurbs, widget: list, fields: [
                 {label: Image, name: image, widget: image, required: false},
                 {label: Title, name: title, widget: text, required: false},
                 {label: Text, name: text, widget: text}]}]}
