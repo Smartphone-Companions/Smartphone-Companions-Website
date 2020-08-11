@@ -2,10 +2,10 @@
 title: Smartphone Companions
 image: /img/DSC_5779.jpg
 intro:
-  text: "Smartphone Companions is a design research project which proposes to
+  text: Smartphone Companions is a design research project which proposes to
     explore new forms of interaction with the data flows passing through our
     smartphone, questioning the status of total object that this device has
-    acquired. "
+    acquired.
 workshops:
   heading: Workshops
   text: We conducted several workshops along the way, allowing participants to
